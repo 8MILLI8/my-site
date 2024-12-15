@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 1100px;
+    margin: 30px auto;
+    background-color: white;
+    margin-top: 0px;
+    padding: 20px;
+}
+header{
+    margin: 20px;
+}
+nav {
+    display: flex;
+    width: 1020px;
+    background-color: black;
+    margin-top: 40px;
+   
+}
+nav a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font: 15px;
+    margin: 10px;
+    margin-left: 30px;
+    margin: auto;
+}
+nav a:hover,nav a :active{
+    color: rgb(65, 104, 68);
+    text-decoration: underline;
+}
+.contanier {
+    display: flex;
+}
+.block {
+    margin: 20px 0px 50px 0px;
+}
+.sitename {
+    margin-bottom: 10px;
+}
+main{
+    width: 1000px;
+    padding: 20px;
+    padding-top: 0px;
+}
+main h2{
+    color: #6b4e32;
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+main a {
+    text-decoration: none;
+    font-size: 20px;
+}
+main a:hover,main a :active{
+    text-decoration: underline;
+    color: #6b4e32;
+}
+main p a{
+    color: #57a01c;
+    font-size: 18px;
+}
+main p{
+    font-size: 18px;
+    margin-top: 40px;
+}
+.dp{
+    margin-top: 3px ;
+
+}
+.sitename{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 380px;
+    color:white;
+}
+body{
+    background-color: rgb(212, 138, 104);
+    font-family: "Poppins", sans-serif;
+}
+.les{
+    width: 1040px;
+    padding-left: 20px ;
+}
+.contanier2 {
+    display: flex;
+}
+.left{
+    width: 490px;
+    padding: 0;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.aside1, .aside3, .aside2{
+    background-color: rgb(231, 225, 213);
+    margin: 15px;
+    margin-left: 0px;
+    padding: 5px;
+}
+
+h3{
+    margin: 10px;
+    background-color:  rgb(101, 145, 180);
+    color: white; 
+    padding: 10px;
+   
+    
+}
+.left a{
+    color: #57a01c;
+    text-decoration: none;
+}
+.left a:hover,.left a :active{
+    text-decoration: underline;
+    color: #308045;
+}
+.left li{
+    list-style: none; 
+    padding: 5px;
+    border: solid 1px rgb(230, 217, 184);
+    
+}
+.left ul {
+    margin-right:40px ;
+    padding: 0px;
+    padding-left: 20px;
+}
+.left p{
+    margin: 20px;
+    line-height: 35px;
+}
+footer{
+    margin: 30px;
+    text-align: center;
+    padding: 30px;
+    background-color:rgb(223, 241, 215) ;
+}
+footer a{
+    text-decoration: none;
+    color: #57a01c;
+}
+footer a:hover,footer a :active{
+    text-decoration: underline;
+    color: #308045;
+}
